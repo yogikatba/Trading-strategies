@@ -1,0 +1,124 @@
+
+.menuitem li{
+  list-style-type: none;
+}
+.menuitem ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.menuitem li {
+  float: left;
+}
+
+.menuitem li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menuitem li a:hover {
+  background-color: #111;
+}
+
+.menuitem {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.content {
+  margin-top: 46px;
+}
+
+h1{
+  background: #4775d1;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.infoitem {
+  background:  #ff8533;
+  margin-top: -34px;
+  padding:80px;
+}
+.infoitem ul{
+  padding-left: 80px;
+}
+.infoitem li {
+  font-family: sans-serif;
+  margin: 10px;
+  font-size: 17px;
+}
+form {
+  text-align:center;
+  border-radius: 5px;
+  padding: 50px;
+  background:  #4775d1;
+}
+
+input[type=number], select, textarea {
+  width: 75%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: white;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  margin-top: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.line {
+  margin: 90px;
+}
