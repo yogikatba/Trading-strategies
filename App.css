@@ -36,7 +36,9 @@
 }
 
 h1{
-  background: #4775d1;
+  background-image: url("img3.jpg");
+  background-size: cover;
+  background-position: center;
   color: white;
   padding-top: 80px;
   padding-bottom: 80px;
